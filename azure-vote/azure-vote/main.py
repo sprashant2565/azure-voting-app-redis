@@ -54,7 +54,7 @@ def index():
     if request.method == 'GET':
 
         # Get current values
-        vote11 = r.get(button1).decode('utf-8')
+        vote1 = r.get(button1).decode('utf-8')
         vote12 = r.get(button2).decode('utf-8')            
 
         # Return index with values
